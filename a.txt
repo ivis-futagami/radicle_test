@@ -1,0 +1,121 @@
+{
+  "explorer.confirmDelete": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.env.windows": {
+    "PSExecutionPolicyPreference": "RemoteSigned"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "redhat.telemetry.enabled": true,
+  "window.zoomLevel": 1,
+  "editor.wordBasedSuggestions": "off",
+  "files.trimFinalNewlines": true,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": true
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true,
+    "｜": true,
+    "’": true,
+    "‘": true,
+    "！": true
+  },
+  "editor.fontFamily": "'udev gothic'",
+  "editor.unicodeHighlight.allowedLocales": {
+    "ja": true,
+    "cs": true
+  },
+  // "markdownlint.config": {
+  //     "code-block-style": {"style":"fenced"},
+  //     "code-fence-style": {"style":"backtick"},
+  //     "no-duplicate-header": {"siblings_only": true},
+  //     "commands-show-output": false,
+  //     "no-multiple-blanks": {
+  //         "maximum": 20
+  //     },
+  //     "no-inline-html":false,
+  //     "blanks-around-headers":false
+  // },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#555",
+    "titleBar.inactiveBackground": "#888",
+    "tab.activeBorderTop": "#888",
+    "scrollbarSlider.activeBackground": "#6668",
+    "scrollbarSlider.background": "#6668",
+    "scrollbarSlider.hoverBackground": "#6668"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[python]": {
+    "editor.formatOnType": true,
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  // ==== シンタックスハイライト ====
+  "files.associations": {
+    "*.tmpl": "html",
+    "*.go.tmpl": "html"
+  },
+  "git-graph.dialog.merge.noFastForward": false,
+  "haskell.manageHLS": "PATH",
+  "workbench.editor.empty.hint": "hidden",
+  "window.commandCenter": false,
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "remote.autoForwardPortsSource": "hybrid",
+  "files.autoGuessEncoding": true,
+  "dev.containers.executeInWSL": true,
+  "window.confirmSaveUntitledWorkspace": false,
+  "editor.mouseWheelZoom": true,
+  "java.test.config": {},
+  "pylint.importStrategy": "fromEnvironment",
+  "python.defaultInterpreterPath": "C:\\Python312\\python.exe",
+  "remote.SSH.remotePlatform": {
+    "weko": "linux"
+  },
+  "window.restoreWindows": "none",
+  "window.newWindowDimensions": "offset",
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.advanced": {},
+  "editor.renderWhitespace": "boundary",
+  // "editor.defaultFormatter": "EditorConfig.EditorConfig",
+  // "diffEditor.ignoreTrimWhitespace": false,
+  // "terminal.integrated.lineHeight": 1.05,
+  // "editor.wordWrapColumn": 90,
+  // // 改行時の自動フォーマット
+  // "editor.formatOnType": true,
+  // /* linter */
+  // // ファイル保存時、ESLint によるチェック
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": "explicit",
+  //   "source.fixAll.stylelint": "explicit"
+  // },
+  "window.openFoldersInNewWindow": "on",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.renderSideBySide": false,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+  /* formatter */
+  // デフォルトフォーマッタの設定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // ファイル保存時の自動フォーマット
+  "editor.formatOnSave": true,
+  // 貼り付け時の自動フォーマット
+  "editor.formatOnPaste": true,
+  // 改行時の自動フォーマット
+  "editor.formatOnType": true,
+
+  /* linter */
+  // ファイル保存時、ESLint によるチェック
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.fixAll.stylelint": "always"
+  },
+  "eslint.options": {
+    "rules": {
+      "linebreak-style": ["off", "windows"]
+    }
+  }
+}
